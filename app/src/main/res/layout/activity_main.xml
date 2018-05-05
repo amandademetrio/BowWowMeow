@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#303F9F">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bow Wow Meow"
+        android:id="@+id/storename"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_weight="2.5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="We sell wine for dogs!"
+        android:id="@+id/storedescription"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/alfie"
+        android:adjustViewBounds="true"
+        android:id="@+id/alfiepicture"
+        android:layout_weight="2.5"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="125sp"
+        android:layout_marginLeft="125sp"
+        android:text="(650) 802-2845"
+        android:textSize="15sp"
+        android:id="@+id/phone_number"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratings"
+        android:gravity="center"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="Ratings"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginRight="5sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="18sp"
+            android:src="@drawable/ratingsicon"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="18sp"
+            android:src="@drawable/ratingsicon"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="18sp"
+            android:src="@drawable/ratingsicon"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="18sp"
+            android:src="@drawable/ratingsicon"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="18sp"
+            android:src="@drawable/ratingsicon"
+            android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="www.bowwowmeow.net"
+        android:id="@+id/website"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="5sp"
+        android:textSize="15sp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:layout_weight="1"/>
+
+</LinearLayout>
