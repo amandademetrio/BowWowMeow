@@ -41,8 +41,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginRight="125sp"
-        android:layout_marginLeft="125sp"
+        android:layout_marginRight="125dp"
+        android:layout_marginLeft="125dp"
         android:text="(650) 802-2845"
         android:textSize="15sp"
         android:id="@+id/phone_number"
@@ -61,35 +61,35 @@
             android:text="Ratings"
             android:textColor="#FFFFFF"
             android:textSize="14sp"
-            android:layout_marginRight="5sp"/>
+            android:layout_marginRight="5dp"/>
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="18sp"
+            android:layout_height="18dp"
             android:src="@drawable/ratingsicon"
             android:adjustViewBounds="true"/>
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="18sp"
+            android:layout_height="18dp"
             android:src="@drawable/ratingsicon"
             android:adjustViewBounds="true"/>
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="18sp"
+            android:layout_height="18dp"
             android:src="@drawable/ratingsicon"
             android:adjustViewBounds="true"/>
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="18sp"
+            android:layout_height="18dp"
             android:src="@drawable/ratingsicon"
             android:adjustViewBounds="true"/>
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="18sp"
+            android:layout_height="18dp"
             android:src="@drawable/ratingsicon"
             android:adjustViewBounds="true"/>
 
@@ -102,7 +102,7 @@
         android:text="www.bowwowmeow.net"
         android:id="@+id/website"
         android:textColor="#FFFFFF"
-        android:layout_marginBottom="5sp"
+        android:layout_marginBottom="5dp"
         android:textSize="15sp"
         android:autoLink="web"
         android:linksClickable="true"
